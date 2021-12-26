@@ -1,31 +1,15 @@
-import './App.css';
-import { Component } from 'react/cjs/react.production.min';
-
-function Body() {
-  return (
-    <p>
-      Starting text
-    </p>
-  );
-}
-
-class Header extends Component {
-  render() {
-    return(
-      <header className="App-Header">
-        <h1 className='App-Title'>Task Tracker App</h1>
-      </header>
-    )
-  }
-}
+import './index.css';
+import Header from './Components/Header'
+import React from 'react';
+//import {Component} from 'react/cjs/react.production.min';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Header/>
-      <Body/>
     </div>
-  );
+  )
 }
+
 
 export default App;
