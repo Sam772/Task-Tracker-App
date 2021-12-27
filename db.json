@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "name": "Data Structures Exam",
+      "date": "12th January 9:30am",
+      "reminder": true,
+      "id": 1
+    }
+  ]
+}
